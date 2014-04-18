@@ -1,0 +1,41 @@
+@charset "utf-8";
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+body {
+	background-image: url(background-image.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-size:auto;
+}
+nav {
+	position: absolute;
+	left: 16px;
+	top: 220px;
+	width: 172px;
+	height: 360px;
+	z-index: 1;
+}
+header {
+	position: absolute;
+	width: 598px;
+	height: 171px;
+	z-index: 2;
+	left: 202px;
+	top: 29px;
+	font-size: 120px;
+	font-family: "Comic Sans MS", cursive;
+}
+section {
+	position: absolute;
+	left: 204px;
+	top: 217px;
+	width: 900px;
+	height: 600px;
+	z-index: 3;
+	background-color: rgba(255,255,255,0.0)
+}

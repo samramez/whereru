@@ -1,0 +1,21 @@
+ul.MenuBarVertical a.here
+{
+	display: block;
+	cursor: pointer;
+	background-color: #333;
+	padding: 0.5em 0.75em;
+	color: #FFF;
+	text-decoration: none;
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarVertical a.here:hover, ul.MenuBarVertical a.here:focus
+{
+	background-color: #00F;
+	color: #FFF;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarVertical a.here MenuBarItemHover, ul.MenuBarVertical a.here.MenuBarItemSubmenuHover, ul.MenuBarVertical a.here.MenuBarSubmenuVisible
+{
+	background-color: #00F;
+	color: #FFF;
+}
